@@ -1,0 +1,154 @@
+.img-center {
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.img-full-width {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+img.pull-right {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+img.pull-left {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.str { 
+    font-weight: bolder;
+}
+
+// Some min-width sizing for tables that are breaking oddly. 
+.tc-md {
+    min-width: 200px;
+}
+
+// Empty Table Cell
+.empty-cell {
+    background-color: white !important;
+}
+
+// Collapse Tables
+.table-collapse {
+    table-layout: fixed;
+    word-wrap: break-word;
+    width: auto;
+    margin: auto;
+}
+
+// Color table row green
+.green-row {
+    background-color: rgba(141, 182, 63, .5) !important;
+}
+
+.light-green-row {
+    background-color: rgba(141, 182, 63, .25) !important;
+}
+
+.light-gray-row {
+    background-color: $tableLightGray !important;
+}
+
+.light-blue-row {
+    background-color: rgba(33, 179, 195, .25) !important;
+}
+
+.dark-blue-row {
+    background-color: rgba(33, 179, 195, .65) !important;
+}
+
+// Align td middle
+.middle-align {
+    vertical-align: middle !important;
+}
+
+// Add border to the start of cell groups
+.group-cell {
+    border-top: 1px solid $gray !important;
+}
+
+// Color text
+.text-blue {
+    color: $blue !important;
+}
+
+.text-green {
+    color: $green !important;
+}
+
+.text-gray {
+    color: $gray !important;
+}
+
+.text-white {
+    color: white !important;
+}
+
+// Prevent wrap
+.no-wrap {
+    white-space: nowrap;
+}
+
+// Make hr shorter and have less margin
+.short {
+    width: 50%;
+    margin-top: 45px !important;
+    margin-bottom: 45px !important;
+}
+
+.img-border {
+    border: 1px solid $gray;
+}
+
+.add-top-margin {
+    margin-top: 60px;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.no-top-margin {
+    margin-top: 0 !important;
+}
+
+.no-bottom-margin { 
+    margin-bottom: 0 !important;
+}
+
+.fancybox-button--fullscreen {
+    display: none !important;
+}
+
+svg {
+    width: 100%;
+    height: auto;
+}
+
+.table-responsive { overflow-x: initial; }
+
+.nounderline {
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+
+.all-caps {
+    text-transform: uppercase !important;
+}
+
+.caption-line {
+    line-height: 15px;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}
